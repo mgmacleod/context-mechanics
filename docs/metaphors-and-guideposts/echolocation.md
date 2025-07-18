@@ -212,7 +212,7 @@ Use the insights from each return to cast the next probe more precisely, buildin
 ### **Two-Player Laws of Form**
 Echolocation can be viewed as a specific method for collaborative distinction-making, where probes test potential boundaries and returns reveal their stability.
 
-### **Context Engineering**
+### **Context Mechanics**
 Echolocation serves as a method for building rich, multi-dimensional context through collaborative exploration rather than single-perspective documentation.
 
 ### **Conceptual Bandwidth**

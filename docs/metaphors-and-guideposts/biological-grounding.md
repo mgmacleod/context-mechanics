@@ -184,7 +184,7 @@ Biological metaphors might trigger resistance from those uncomfortable with natu
 - Develop hierarchical understanding of biological collaboration principles
 
 ### **Integration with Other Frameworks**
-- Connect biological grounding with context engineering principles
+- Connect biological grounding with context mechanics principles
 - Integrate with two-player Laws of Form and conceptual echolocation
 - Develop unified theory incorporating biological, mathematical, and phenomenological approaches
 

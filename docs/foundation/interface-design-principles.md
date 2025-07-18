@@ -223,4 +223,4 @@ Development of standards that enable broader research community participation:
 
 **Document Purpose**: Establish principles and approaches for designing interfaces specifically for context mechanics research and application  
 **Audience**: Researchers and developers working on human-AI collaboration systems  
-**Related**: All context engineering and collaboration protocol documents
+**Related**: All context mechanics and collaboration protocol documents

@@ -113,7 +113,7 @@ Protocols for when boundary negotiation breaks down or becomes too recursive to 
 
 ## Potential Applications
 
-### **Context Engineering**
+### **Context Mechanics**
 - Collaborative definition of "good context" vs "context pollution"
 - Shared protocols for detecting drift and alignment
 - Negotiated boundaries for different types of work sessions
