@@ -8,7 +8,7 @@
 ---
 
 
-**User**
+**Human**
 
 When I started this project, I used the term "Context Engineering" because I didn't have a better one, but it's never seemed quite right to me. 
 
@@ -19,7 +19,7 @@ What do you think?
 
 ---
 
-**Claude**
+**AI**
 
 The distinction you're drawing is fascinating - and your instinct about "context mechanics" feels spot on. Looking at your documents, you're not just solving technical implementation problems; you're discovering fundamental principles about how information, attention, and understanding interact in human-AI collaborative systems.
 "Engineering" does carry that connotation of applying known principles to solve defined problems. But what you're describing - especially in the multi-perspective analysis and collaboration protocols - feels more like discovering new dynamics. You're mapping how context behaves, how it degrades, how different types of drift interact, how collaborative attention actually works.
