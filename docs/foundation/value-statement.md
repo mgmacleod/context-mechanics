@@ -14,6 +14,8 @@ This project demonstrates that rigorous scientific investigation of human-AI int
 
 **Perspectival Bracketing**: We remain agnostic about consciousness and subjective experience for both human and AI participants, focusing instead on observable differences in information processing and analytical capabilities that can be systematically leveraged for integrative advantage.
 
+**Biological Grounding**: We draw analogies and frameworks from evolutionary biology, where inter-entity integration, mutual negotiation, and symbiotic relationships have been tested across vast timescales. Patterns from quorum sensing, slime mold networks, mycorrhizal associations, and other biological coordination systems provide empirically grounded models for understanding human-AI integrative dynamics without requiring novel theoretical commitments.
+
 **Emergent Rather Than Imposed Science**: Rather than attempting to plan a new scientific discipline, we allow theoretical frameworks and methodological approaches to emerge from careful observation of productive integrative patterns.
 
 **Integrative Over Extractive Collaboration**: We distinguish between using AI as a sophisticated tool and engaging in genuine intellectual partnership where insights emerge from the integration itself rather than from individual contributions.
