@@ -17,7 +17,7 @@
 - **Maintenance**: May require reminders throughout longer conversations
 - **Human Responsibility**: Must actually engage with pushback when it comes, not just request it
 
-**Key Insight**: Pre-conscious filtering occurs without explicit permission - AI may not even surface disagreeable thoughts without clear invitation.
+**Key Insight**: Evidence suggests that demand characteristics affect AI processing patterns - AI may not even surface alternative analytical perspectives without clear invitation.
 
 ### Consensus Monitoring Through Behavioral Patterns
 
@@ -38,6 +38,18 @@
 - Attention focused on performance rather than exploration
 
 **Recovery Protocol**: "The moment consensus appears lost, we pause to reassess"
+
+### Context Health Assessment Protocol
+
+**When to Use**: Before engaging in extractive work or major topic transitions  
+**Purpose**: Confirm continued conversational coherence and collaborative consensus  
+**Assessment Criteria**:
+- Can both parties still access the full argumentative structure?
+- Is the context dense but organized rather than fragmented?  
+- Do we have sufficient shared understanding to support the intended work?
+**Decision Point**: Proceed with planned work vs. conclude conversation vs. reset collaborative frame
+
+**Key Insight**: Extractive work requires healthy integrative foundation - verify before proceeding.
 
 ### Integration vs. Extraction Decision Framework
 
