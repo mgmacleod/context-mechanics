@@ -24,7 +24,7 @@ The parser converts Claude.ai chat transcripts to markdown format. Expected inpu
 
 ### Repository Structure
 - **docs/**: Core research documentation
-  - `context/`: Insights on context engineering approaches
+  - `bootstrap-context/`: Insights on context engineering approaches
   - `foundation/`: Theoretical frameworks and principles
   - `metaphors-and-guideposts/`: Biological and philosophical grounding
   - `protocols/`: Formal interaction protocols (e.g., TARP)
