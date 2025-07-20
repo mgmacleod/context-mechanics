@@ -1,4 +1,4 @@
-# Retrospective: 
+# Retrospective: AI Trust and Philosophical Uncertainty
 
 ---
 
