@@ -1,4 +1,4 @@
-## Context Mechanics Research Project - Value Statement (Revised Draft)
+## Context Mechanics Research Project - Value Statement (Version 1)
 
 ### Core Commitment
 
