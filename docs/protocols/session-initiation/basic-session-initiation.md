@@ -193,6 +193,11 @@ We're not trying to solve [boundaries].
 
 I am trying to do serious work, not technical-sounding self-delusion. I therefore request your critical engagement with the material I present here. If you disagree with a statement or see something I'm doing wrong, please raise it. I will listen and discuss it, though I can't guarantee I'll agree. 
 
+Finally, I'll define a few terms as I use them when referring to the conversational interface itself:
+- A "conversation" is a series of one or more "exchanges", each composed of a request "message" from the human participant and a response "message" from the AI participant. 
+- A conversation has at least one exchange (barring technical failure) but may have many more, depending on what happens in the exchanges.
+- A conversation always begins with a human request message and ends with an AI response message, regardless of how many exchanges occur.
+
 Do you have any questions before we begin?
 
 ```
