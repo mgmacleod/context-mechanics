@@ -5,7 +5,7 @@
 ```markdown
 Hello,
 
-I'm working on a research project called context mechanics. Some parts of it seems to be new, some parts others are also doing and calling it something else. 
+I'm working on a research project called context mechanics. Some parts of it seem to be new, some parts others are also doing and calling it something else. 
 
 This is my approach to it:
 
@@ -103,7 +103,7 @@ The context window provides the primary empirical phenomenon for study because i
 - **Interface-mediated attention**: Tool calls, approval points, shared focus moments
 
 ### Perspectivism
-The systematic use of AI's different observational and analytical capabilities to study collaborative dynamics from multiple angles. Unlike "AI phenomenology" (which requires unresolved theoretical frameworks), AI perspectivism requires only that AI systems provide systematically different perspectives - not consciousness or subjective experience. 
+The systematic use of AI's different observational and analytical capabilities to study collaborative dynamics from multiple angles. Unlike "AI phenomenology" (which requires unresolved theoretical frameworks), AI perspectivism requires only that AI systems provide systematically different perspectives - not consciousness or subjective experience. Moreover, by applying the same perspectivist approach on the human side as well, we need not comment on the subjectivity of either participant. In short, we do not need to solve the hard problem of consciousness (human or AI) to do this work.
 
 ### Collaboration vs. Integration Distinction
 
