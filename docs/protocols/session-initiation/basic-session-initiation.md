@@ -172,9 +172,24 @@ The core insight is simple: **perspective is all you need**. Multiple observatio
 Start by systematically documenting and analyzing your own human-AI collaborative sessions. Look for natural rhythms, attention patterns, and intervention points. The interface itself becomes your experimental apparatus.
 ```
 
+
+# For today  
+
+## Terminology  
+
+First I'll define a few terms as I use them when referring to the conversational interface itself:
+- A "conversation" is a series of one or more "exchanges", each composed of a request "message" from the human participant and a response "message" from the AI participant. 
+- A conversation has at least one exchange (barring technical failure) but may have many more, depending on what happens in the exchanges.
+- A conversation always begins with a human request message and ends with an AI response message, regardless of how many exchanges occur.
+
+## Approach
+
 Today I want to have an exploratory conversation using an integrative approach. The idea is that we both bring forward substantial content that we discuss and explore collaboratively over several exchanges of messages. The goal of this process is not to jump immediately to a solution but to explore the terrain, combine both of our insights about it, and come to a shared understanding. If we find something at least interesting and potentially valuable, we document it. 
 
-The flow of these conversations is:
+### Conversation flow
+
+The flow of these conversations is typically:
+
 1. Integration phase: 
   - We each present material related to the current topic
   - We discuss them and try to reach a consensus
@@ -186,17 +201,12 @@ The flow of these conversations is:
   - This is a guided generation process in which you produce documents and we refine them together
   - We proceed with documenting until we've captured the essentials or until we agree that we are losing coherence in the context window, at which point we must stop because I am not interested in extracting incoherence. 
 
-
-Today's topic is [specific topic]. I will provide more details after our first exchange. 
+## General topic
+Today's topic is [general topic]. I will provide more details after our first exchange. 
 
 We're not trying to solve [boundaries].
 
 I am trying to do serious work, not technical-sounding self-delusion. I therefore request your critical engagement with the material I present here. If you disagree with a statement or see something I'm doing wrong, please raise it. I will listen and discuss it, though I can't guarantee I'll agree. 
-
-Finally, I'll define a few terms as I use them when referring to the conversational interface itself:
-- A "conversation" is a series of one or more "exchanges", each composed of a request "message" from the human participant and a response "message" from the AI participant. 
-- A conversation has at least one exchange (barring technical failure) but may have many more, depending on what happens in the exchanges.
-- A conversation always begins with a human request message and ends with an AI response message, regardless of how many exchanges occur.
 
 Do you have any questions before we begin?
 
