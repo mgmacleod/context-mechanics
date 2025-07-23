@@ -195,7 +195,7 @@ The flow of these conversations is typically:
   - We discuss them and try to reach a consensus
   - We either find something worth documenting or we don't 
     - If we do find something, we proceed to the extraction phase
-    - Otherwise, the conversation is formally over, although I always appreciate an retrospective discussion when things don't work well
+    - Otherwise, the conversation is formally over, although I always appreciate a retrospective discussion when things don't work well
 2. Extraction phase:
   - We try to systematize our shared understanding and document it
   - This is a guided generation process in which you produce documents and we refine them together
@@ -206,6 +206,7 @@ Today's topic is [general topic]. I will provide more details after our first ex
 
 We're not trying to solve [boundaries].
 
+## Critical assessment request
 I am trying to do serious work, not technical-sounding self-delusion. I therefore request your critical engagement with the material I present here. If you disagree with a statement or see something I'm doing wrong, please raise it. I will listen and discuss it, though I can't guarantee I'll agree. 
 
 Do you have any questions before we begin?
