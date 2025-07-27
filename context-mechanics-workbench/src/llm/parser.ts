@@ -12,14 +12,27 @@ export class TranscriptCapture {
         this.currentSessionId = sessionId;
         this.messages = [];
         
+        this.setupSessionPath(sessionId);
+    }
+
+    private setupSessionPath(sessionId: string) {
+        const config = vscode.workspace.getConfiguration('contextMechanics');
+        const sessionDir = config.get<string>('sessionPath') || './transcripts-and-artifacts';
+        
+        // Try to get workspace folder first
         const workspaceFolder = vscode.workspace.workspaceFolders?.[0];
+        
         if (workspaceFolder) {
-            const config = vscode.workspace.getConfiguration('contextMechanics');
-            const sessionDir = config.get<string>('sessionPath') || './transcripts-and-artifacts';
+            // Use workspace folder if available
             this.sessionPath = path.join(workspaceFolder.uri.fsPath, sessionDir, sessionId);
-            
-            this.ensureSessionDirectory();
+        } else {
+            // Fallback: use current working directory or temp directory
+            const basePath = process.cwd() || require('os').tmpdir();
+            this.sessionPath = path.join(basePath, 'context-mechanics-sessions', sessionId);
+            console.warn('No workspace folder detected, using fallback path:', this.sessionPath);
         }
+        
+        this.ensureSessionDirectory();
     }
 
     addMessage(message: LLMMessage) {
@@ -28,23 +41,53 @@ export class TranscriptCapture {
             return;
         }
 
+        if (!this.sessionPath) {
+            console.error('Session path not initialized, attempting to set up');
+            this.setupSessionPath(this.currentSessionId);
+        }
+
         this.messages.push(message);
+        console.log(`Adding message ${this.messages.length} to session ${this.currentSessionId}`);
         this.saveTranscript();
     }
 
+    getSessionPath(): string | undefined {
+        return this.sessionPath;
+    }
+
     private ensureSessionDirectory() {
-        if (this.sessionPath && !fs.existsSync(this.sessionPath)) {
-            fs.mkdirSync(this.sessionPath, { recursive: true });
+        if (!this.sessionPath) {
+            console.error('No session path configured for transcript capture');
+            return;
+        }
+        
+        try {
+            if (!fs.existsSync(this.sessionPath)) {
+                fs.mkdirSync(this.sessionPath, { recursive: true });
+                console.log('Created session directory:', this.sessionPath);
+            }
+        } catch (error) {
+            console.error('Failed to create session directory:', error);
+            vscode.window.showErrorMessage(`Failed to create session directory: ${error}`);
         }
     }
 
     private saveTranscript() {
-        if (!this.sessionPath) return;
+        if (!this.sessionPath) {
+            console.error('No session path available for saving transcript');
+            return;
+        }
 
-        const transcript = this.formatTranscript();
-        const transcriptPath = path.join(this.sessionPath, 'transcript.md');
-        
-        fs.writeFileSync(transcriptPath, transcript, 'utf8');
+        try {
+            const transcript = this.formatTranscript();
+            const transcriptPath = path.join(this.sessionPath, 'transcript.md');
+            
+            fs.writeFileSync(transcriptPath, transcript, 'utf8');
+            console.log('Transcript saved to:', transcriptPath);
+        } catch (error) {
+            console.error('Failed to save transcript:', error);
+            vscode.window.showErrorMessage(`Failed to save transcript: ${error}`);
+        }
     }
 
     private formatTranscript(): string {

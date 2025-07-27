@@ -48,7 +48,12 @@ export class SessionPanel implements vscode.Disposable {
             notes: []
         };
 
+        console.log('Creating new session:', sessionId);
         this.transcriptCapture.startSession(sessionId);
+        
+        // Debug: Check session path
+        const sessionPath = this.transcriptCapture.getSessionPath();
+        console.log('Session path initialized:', sessionPath);
         
         if (this.panel) {
             this.panel.webview.postMessage({
@@ -56,6 +61,8 @@ export class SessionPanel implements vscode.Disposable {
                 session: this.currentSession
             });
         }
+        
+        vscode.window.showInformationMessage(`Session created: ${sessionId}\nPath: ${sessionPath}`);
     }
 
     openMessageComposer() {
