@@ -1,2 +1,23 @@
 transcript.txt
 sketchpad.md
+
+# javascript and typescript
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# VSCode extension development
+out/
+dist/
+*.vsix
+.vscode-test/
+
+# TypeScript
+*.tsbuildinfo
+
+# python
+venv
+__pycache__
