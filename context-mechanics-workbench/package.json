@@ -1,0 +1,90 @@
+{
+  "name": "context-mechanics-workbench",
+  "displayName": "Context Mechanics Research Workbench",
+  "description": "VSCode extension for studying human-AI collaboration dynamics with integrated LLM providers",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:contextMechanics.openWorkbench",
+    "onView:contextMechanics.sessionPanel"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "contextMechanics.openWorkbench",
+        "title": "Open Context Mechanics Workbench"
+      },
+      {
+        "command": "contextMechanics.newSession",
+        "title": "New Research Session"
+      },
+      {
+        "command": "contextMechanics.sendMessage",
+        "title": "Send Message to LLM"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "contextMechanics.sessionPanel",
+          "name": "Research Sessions",
+          "when": "true"
+        },
+        {
+          "id": "contextMechanics.notePanel",
+          "name": "Session Notes",
+          "when": "true"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "contextMechanics",
+          "title": "Context Mechanics",
+          "icon": "$(brain)"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Context Mechanics",
+      "properties": {
+        "contextMechanics.llmProvider": {
+          "type": "string",
+          "default": "claudeCode",
+          "enum": ["claudeCode", "openai", "local"],
+          "description": "Primary LLM provider for research sessions"
+        },
+        "contextMechanics.autoCapture": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically capture all LLM interactions"
+        },
+        "contextMechanics.sessionPath": {
+          "type": "string",
+          "default": "./transcripts-and-artifacts",
+          "description": "Directory for storing research sessions"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0"
+  }
+}
