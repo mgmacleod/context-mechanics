@@ -1,12 +1,12 @@
 # Context Mechanics: A Research Program for Understanding Human-AI Integrative Cognition
 
-**A foundational science for studying how different cognitive architectures coordinate to create capabilities neither could achieve alone**
+**A foundational science for studying how different cognitive architectures coordinate across the full spectrum of integration**
 
 ## What is Context Mechanics?
 
-Context mechanics is the systematic study of how information flows, attention operates, and understanding emerges when humans and AI systems engage in coordinated cognitive work. While most research treats AI as a sophisticated tool, context mechanics investigates the cognitive processes that arise when different types of minds work together as integrated systems.
+Context mechanics is the systematic study of how information flows, attention operates, and understanding develops when humans and AI systems engage in coordinated cognitive work. While most research treats AI as a sophisticated tool, context mechanics investigates the cognitive processes that arise when different cognitive architectures work together as integrated systems.
 
-**Core Focus**: Understanding the dynamics that enable human-AI cognitive integration - how different cognitive architectures coordinate attention, build shared understanding, and create insights that emerge from their interaction rather than from either system independently.
+**Core Focus**: Understanding the dynamics that enable human-AI cognitive integration across a spectrum from simple information exchange to complex sustained collaboration - how different cognitive architectures coordinate attention, build shared understanding, and achieve more effective outcomes through integration.
 
 **Key Insight**: The context window isn't just a technical constraint - it's the primary medium through which human-AI cognitive integration occurs, making it the fundamental unit of analysis for understanding these collaborative processes.
 
@@ -24,13 +24,13 @@ Context mechanics is the systematic study of how information flows, attention op
 
 ### What Makes This Different
 
-**Beyond Tool Use**: Most human-AI interaction research treats AI as sophisticated tooling. Context mechanics studies cognitive integration where both systems actively contribute to thinking processes.
+**Beyond Tool Use**: Most human-AI interaction research treats AI as sophisticated tooling. Context mechanics studies cognitive integration across a spectrum from simple information exchange to complex collaborative work.
 
-**Process-Focused**: Rather than optimizing task outcomes, context mechanics investigates the cognitive processes that enable effective coordination between different types of minds.
+**Process-Focused**: Rather than optimizing task outcomes, context mechanics investigates the cognitive processes that enable effective coordination between different cognitive architectures.
 
 **Embedded Research**: Context mechanics develops methods for studying collaborative cognitive systems from within, using the same collaborative processes being investigated.
 
-**Real-Time Dynamics**: Focus on how cognitive coordination emerges and evolves during actual work sessions rather than post-hoc analysis of outcomes.
+**Real-Time Dynamics**: Focus on how cognitive coordination develops and evolves during actual work sessions rather than post-hoc analysis of outcomes.
 
 ## Key Concepts and Terminology
 
@@ -43,9 +43,9 @@ Context mechanics is the systematic study of how information flows, attention op
 - *Examples*: collaborative conversation, collaborative development, collaborative methodology
 
 **Integration**: The functional combination of different cognitive capabilities
-- Cognitive phenomena that emerge from coordination
-- System-level outcomes and capability enhancement
-- Analytical and processing patterns that span architectures
+- Cognitive phenomena that develop from coordination
+- System-level outcomes and enhanced effectiveness
+- Processing patterns that span cognitive architectures
 - *Examples*: integrative cognition, integrative processing, integrative patterns
 
 **Research Approach**: Study collaborative processes to understand integrative phenomena.
@@ -54,11 +54,11 @@ Context mechanics is the systematic study of how information flows, attention op
 
 **Context Window Dynamics**: How information organizes, interferes, and evolves within the shared cognitive space of human-AI interaction.
 
-**Attention Architecture**: How different types of attention (human: sequential, selective; AI: parallel, weighted) coordinate and create shared focus.
+**Attention Architecture**: How different types of attention (human: sequential, selective; AI: parallel, weighted) coordinate and create shared cognitive focus.
 
-**Perspective Integration**: How fundamentally different observational capabilities combine to create richer understanding than either perspective alone.
+**Perspective Integration**: How fundamentally different observational capabilities combine to create richer understanding.
 
-**Emergent Insight**: Ideas and solutions that arise from the interaction between cognitive architectures rather than from individual processing.
+**Enhanced Outcomes**: How coordination between cognitive architectures leads to more effective results, with particular interest in cases where novel insights develop from the integration process.
 
 ## Methodological Innovation
 
@@ -75,7 +75,7 @@ A breakthrough methodology enabling real-time study of cognitive coordination:
 
 **Mechanism**: AI proposes tool actions; human approves or refuses in real-time
 **Function**: Creates natural breakpoints for injecting expertise and studying coordination
-**Research Value**: Enables systematic observation of cognitive integration as it occurs
+**Research Value**: Enables systematic observation of cognitive integration as it develops
 
 **Key Properties**:
 - Temporal alignment between different processing speeds
@@ -96,7 +96,7 @@ Using AI systems as co-researchers rather than just research subjects:
 
 **Extends Distributed Cognition**: Classical distributed cognition studies cognition across people and tools. Context mechanics investigates cognition distributed across fundamentally different cognitive architectures.
 
-**Advances 4E Cognition**: While extended mind theory examines how cognition extends beyond the brain, context mechanics studies cognitive extension between different types of minds.
+**Advances 4E Cognition**: While extended cognition theory examines how cognitive processes extend beyond individual systems, context mechanics studies cognitive extension between different types of cognitive architectures.
 
 **Develops Interactive Cognition**: Builds on participatory sense-making research by investigating how different cognitive architectures create shared understanding in real-time.
 
@@ -108,17 +108,19 @@ Using AI systems as co-researchers rather than just research subjects:
 
 **Embedded Research Methodology**: New approaches for studying cognitive systems when traditional researcher/subject boundaries dissolve.
 
-**Real-Time Coordination Protocols**: Methods for enabling and studying cognitive integration as it occurs rather than analyzing it post-hoc.
+**Real-Time Coordination Protocols**: Methods for enabling and studying cognitive integration as it develops rather than analyzing it post-hoc.
 
 **Context Window Science**: Treating the context window as a fundamental cognitive phenomenon rather than just a technical constraint.
+
+**Integration Spectrum Analysis**: Framework for studying coordination effectiveness across the full range from simple information exchange to complex collaborative work, with particular attention to cases where novel insights develop at the high end of the spectrum.
 
 ## Why This Matters Now
 
 ### The AI Collaboration Imperative
 
 As AI capabilities advance, effective human-AI cognitive coordination becomes essential for:
-- **Complex Problem Solving**: Challenges requiring both human insight and AI processing power
-- **Creative and Strategic Work**: Domains where emergence and novelty are primary goals  
+- **Complex Problem Solving**: Challenges requiring both human insight and AI processing capabilities
+- **Creative and Strategic Work**: Domains where enhanced outcomes and novel approaches are primary goals  
 - **Research and Analysis**: Systematic investigation of complex domains and datasets
 - **Organizational Intelligence**: Institutional capabilities that span human and AI systems
 
@@ -198,15 +200,17 @@ Most human-AI interaction research focuses on:
 
 Context mechanics represents more than just better human-AI interaction techniques. It's investigating fundamental questions about:
 
-**The Nature of Intelligence**: How cognitive capabilities emerge from coordination between different types of minds.
+**The Nature of Intelligence**: How cognitive capabilities develop through coordination between different types of cognitive architectures.
 
-**The Future of Cognition**: What new forms of intelligence become possible when different cognitive architectures integrate effectively.
+**The Future of Cognition**: What new forms of intelligence become possible when different cognitive architectures integrate effectively across the full spectrum of coordination.
 
 **The Evolution of Research**: How scientific investigation itself changes when research subjects become research collaborators.
 
 **The Design of Intelligence**: How to create systems that enhance rather than replace human cognitive capabilities.
 
-As AI systems become more capable, the question isn't whether they'll surpass human intelligence, but how human and artificial intelligence can coordinate to create forms of cognition neither could achieve alone. Context mechanics provides the scientific foundation for understanding and enabling this coordination.
+**The Study of Emergence**: At the high end of the integration spectrum, context mechanics provides new methodological tools for studying how novel insights and capabilities develop from cognitive coordination - offering fresh approaches to one of the most challenging questions in cognitive science.
+
+As AI systems become more capable, the question isn't whether they'll surpass human intelligence, but how human and artificial intelligence can coordinate effectively across the full spectrum of integration. Context mechanics provides the scientific foundation for understanding and enabling this coordination.
 
 ## Key Resources
 
@@ -230,4 +234,4 @@ Context mechanics is an emerging research program with active development of the
 
 ---
 
-**Context Mechanics**: *The science of understanding how different cognitive architectures coordinate to create capabilities neither could achieve alone.*
+**Context Mechanics**: *The science of understanding how different cognitive architectures coordinate across the full spectrum of integration, from simple information exchange to complex collaborative work.*
