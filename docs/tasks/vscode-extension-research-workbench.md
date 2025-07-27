@@ -1,12 +1,12 @@
 # Task: VSCode Extension - Context Mechanics Research Workbench
 
 **Created**: January 27, 2025  
-**Purpose**: Build a VSCode extension that integrates Claude Code with research workflow for Context Mechanics studies  
+**Purpose**: Build a VSCode extension that integrates LLM assistants (primarily Claude Code) with research workflow for Context Mechanics studies  
 **Status**: Initial specification
 
 ## Project Overview
 
-Create a VSCode extension that serves as a research workbench for studying human-AI collaboration dynamics. The extension should bridge the IDE, research documents/artifacts, and Claude Code in a unified interface optimized for conducting and documenting research sessions.
+Create a VSCode extension that serves as a research workbench for studying human-AI collaboration dynamics. The extension should bridge the IDE, research documents/artifacts, and LLM assistants (with Claude Code as the primary backend) in a unified interface optimized for conducting and documenting research sessions.
 
 ## Core Requirements
 
@@ -34,11 +34,12 @@ Create a VSCode extension that serves as a research workbench for studying human
 - Support for tagging and categorization
 - Export notes with transcript
 
-### 5. Claude Code Integration
-- Spawn and manage Claude Code subprocess
-- Capture streaming output
-- Implement custom approval UI (graduated interventions)
-- Session state management
+### 5. LLM Integration
+- Abstract LLM provider interface
+- Claude Code as primary implementation
+- Support for OpenAI, local models, and others
+- Provider-agnostic approval UI (graduated interventions)
+- Session state management across providers
 
 ## Technical Architecture
 
@@ -51,8 +52,13 @@ context-mechanics-workbench/
 │   │   ├── sessionPanel.ts   # Research session UI
 │   │   ├── notePanel.ts      # Note-taking interface
 │   │   └── metricsPanel.ts   # Collaboration metrics
-│   ├── claude/
-│   │   ├── bridge.ts         # Claude Code integration
+│   ├── llm/
+│   │   ├── provider.ts       # LLM provider interface
+│   │   ├── providers/
+│   │   │   ├── claudeCode.ts # Claude Code implementation
+│   │   │   ├── openai.ts     # OpenAI implementation
+│   │   │   ├── local.ts      # Local model implementation
+│   │   │   └── mock.ts       # Mock for testing
 │   │   ├── parser.ts         # Transcript parsing
 │   │   └── protocol.ts       # TARP implementation
 │   └── storage/
@@ -64,7 +70,8 @@ context-mechanics-workbench/
 
 ### Key Technologies
 - VSCode Extension API
-- Claude Code SDK (TypeScript)
+- Claude Code SDK (TypeScript) - primary LLM backend
+- OpenAI API, Ollama, etc. - additional LLM backends
 - Webview for rich UI components
 - File system API for artifact management
 
@@ -72,7 +79,8 @@ context-mechanics-workbench/
 
 ### Phase 1: Basic Integration (MVP)
 - Simple message composition
-- Claude Code subprocess management
+- LLM provider abstraction layer
+- Claude Code as initial implementation
 - Basic transcript capture
 - File system integration
 
@@ -118,7 +126,7 @@ context-mechanics-workbench/
 
 2. **Active Research**
    - Compose prompts in rich editor
-   - Execute via Claude Code
+   - Execute via selected LLM provider
    - Observe collaboration dynamics
    - Take notes in parallel
    - Use graduated interventions
@@ -143,11 +151,12 @@ context-mechanics-workbench/
 - Integrates with existing docs/ structure
 - Git-aware for version control
 
-### With Claude Code
-- Uses Claude Code SDK for programmatic control
-- Supports all Claude Code features
-- Enhances rather than replaces CLI workflow
-- Maintains conversation continuity
+### With LLM Providers
+- Claude Code (primary): Full SDK integration, all features supported
+- OpenAI: API-based integration with tool use
+- Local models: Ollama/llama.cpp integration
+- Provider-agnostic conversation management
+- Maintains conversation continuity across providers
 
 ## Success Criteria
 
@@ -161,7 +170,7 @@ context-mechanics-workbench/
 
 1. Set up VSCode extension development environment
 2. Create basic extension scaffold
-3. Implement Claude Code subprocess management
+3. Implement LLM provider abstraction layer
 4. Build simple message composition UI
 5. Test basic transcript capture
 6. Iterate based on research needs
