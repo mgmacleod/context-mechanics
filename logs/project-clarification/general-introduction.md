@@ -4,9 +4,9 @@
 
 ## What is Context Mechanics?
 
-Context mechanics is the systematic study of how information flows, attention operates, and understanding develops when humans and AI systems engage in coordinated cognitive work. While most research treats AI as a sophisticated tool, context mechanics investigates the cognitive processes that arise when different cognitive architectures work together as integrated systems.
+Context mechanics is the systematic study of how information flows, attention operates, and understanding develops when humans and AI systems engage in coordinated work. While most research treats AI as a sophisticated tool, context mechanics investigates the coordinative processes that arise when different cognitive architectures work together as integrated systems.
 
-**Core Focus**: Understanding the dynamics that enable human-AI cognitive integration across a spectrum from simple information exchange to complex sustained collaboration - how different cognitive architectures coordinate attention, build shared understanding, and achieve more effective outcomes through integration.
+**Core Focus**: Understanding the dynamics that enable human-AI integration across a spectrum from simple information exchange to complex sustained collaboration - how different cognitive architectures coordinate attention, build shared understanding, and achieve more effective outcomes through integration.
 
 **Key Insight**: The context window isn't just a technical constraint - it's the primary medium through which human-AI cognitive integration occurs, making it the fundamental unit of analysis for understanding these collaborative processes.
 
@@ -26,11 +26,11 @@ Context mechanics is the systematic study of how information flows, attention op
 
 **Beyond Tool Use**: Most human-AI interaction research treats AI as sophisticated tooling. Context mechanics studies cognitive integration across a spectrum from simple information exchange to complex collaborative work.
 
-**Process-Focused**: Rather than optimizing task outcomes, context mechanics investigates the cognitive processes that enable effective coordination between different cognitive architectures.
+**Process-Focused**: Rather than optimizing task outcomes, context mechanics investigates the coordinative processes that enable effective coordination between different cognitive architectures.
 
-**Embedded Research**: Context mechanics develops methods for studying collaborative cognitive systems from within, using the same collaborative processes being investigated.
+**Embedded Research**: Context mechanics develops methods for studying collaborative systems from within, using the same collaborative processes being investigated.
 
-**Real-Time Dynamics**: Focus on how cognitive coordination develops and evolves during actual work sessions rather than post-hoc analysis of outcomes.
+**Real-Time Dynamics**: Focus on how coordinative patterns develop and evolve during actual work sessions rather than post-hoc analysis of outcomes.
 
 ## Key Concepts and Terminology
 
@@ -43,7 +43,7 @@ Context mechanics is the systematic study of how information flows, attention op
 - *Examples*: collaborative conversation, collaborative development, collaborative methodology
 
 **Integration**: The functional combination of different cognitive capabilities
-- Cognitive phenomena that develop from coordination
+- Interactive phenomena that develop from coordination
 - System-level outcomes and enhanced effectiveness
 - Processing patterns that span cognitive architectures
 - *Examples*: integrative cognition, integrative processing, integrative patterns
@@ -52,13 +52,13 @@ Context mechanics is the systematic study of how information flows, attention op
 
 ### Core Phenomena
 
-**Context Window Dynamics**: How information organizes, interferes, and evolves within the shared cognitive space of human-AI interaction.
+**Context Window Dynamics**: How information organizes, interferes, and evolves within the shared space of human-AI interaction.
 
-**Attention Architecture**: How different types of attention (human: sequential, selective; AI: parallel, weighted) coordinate and create shared cognitive focus.
+**Attention Architecture**: How different types of attention (human: sequential, selective; AI: parallel, weighted) coordinate and create shared focus.
 
 **Perspective Integration**: How fundamentally different observational capabilities combine to create richer understanding.
 
-**Enhanced Outcomes**: How coordination between cognitive architectures leads to more effective results, with particular interest in cases where novel insights develop from the integration process.
+**Enhanced Outcomes**: How coordination between cognitive architectures leads to more effective results, with particular interest in cases where novel insights develop from the interactive process.
 
 ## Methodological Innovation
 
@@ -74,20 +74,20 @@ Traditional cognitive research maintains strict boundaries between researcher an
 A breakthrough methodology enabling real-time study of cognitive coordination:
 
 **Mechanism**: AI proposes tool actions; human approves or refuses in real-time
-**Function**: Creates natural breakpoints for injecting expertise and studying coordination
-**Research Value**: Enables systematic observation of cognitive integration as it develops
+**Function**: Creates natural breakpoints for injecting expertise and studying coordinative patterns
+**Research Value**: Enables systematic observation of integration as it develops
 
 **Key Properties**:
 - Temporal alignment between different processing speeds
-- Perspective comparison on identical cognitive events  
+- Perspective comparison on identical interactive events  
 - Real-time protocol adaptation and refinement
-- Natural intervention points for studying coordination dynamics
+- Natural intervention points for studying coordinative dynamics
 
 ### Multi-Perspectival Analysis
 
 Using AI systems as co-researchers rather than just research subjects:
 - Systematic comparison of human and AI perspectives on identical interactions
-- Collaborative analysis of cognitive coordination patterns
+- Collaborative analysis of coordinative patterns
 - Joint development of research protocols and theoretical frameworks
 
 ## Scientific Foundations
@@ -108,7 +108,7 @@ Using AI systems as co-researchers rather than just research subjects:
 
 **Embedded Research Methodology**: New approaches for studying cognitive systems when traditional researcher/subject boundaries dissolve.
 
-**Real-Time Coordination Protocols**: Methods for enabling and studying cognitive integration as it develops rather than analyzing it post-hoc.
+**Real-Time Coordination Protocols**: Methods for enabling and studying integration as it develops rather than analyzing it post-hoc.
 
 **Context Window Science**: Treating the context window as a fundamental cognitive phenomenon rather than just a technical constraint.
 
@@ -118,7 +118,7 @@ Using AI systems as co-researchers rather than just research subjects:
 
 ### The AI Collaboration Imperative
 
-As AI capabilities advance, effective human-AI cognitive coordination becomes essential for:
+As AI capabilities advance, effective human-AI coordination becomes essential for:
 - **Complex Problem Solving**: Challenges requiring both human insight and AI processing capabilities
 - **Creative and Strategic Work**: Domains where enhanced outcomes and novel approaches are primary goals  
 - **Research and Analysis**: Systematic investigation of complex domains and datasets
