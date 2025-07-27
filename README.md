@@ -30,22 +30,37 @@ See [From Context Engineering to Context Mechanics](docs/foundation/context-engi
 
 ### Core Documentation (`docs/`)
 
-**Foundation Documents:**
+**Foundation Documents (`foundation/`):**
+- [`value-statement.md`](docs/foundation/value-statement.md) - Value statement and foundational principles
 - [`context-mechanics-general-intro.md`](docs/foundation/context-mechanics-general-intro.md) - Comprehensive introduction to the research program
 - [`context-engineering-to-mechanics.md`](docs/foundation/context-engineering-to-mechanics.md) - How applied practice became scientific research
-- [`context-mechanics-field-connections.md`](docs/foundation/context-mechanics-field-connections.md) - Relationship to broader cognitive science
+- [`technical-foundations-understanding-llms-for-cm.md`](docs/foundation/technical-foundations-understanding-llms-for-cm.md) - Explaining LLM foundations for context mechanics research (LLM power user introduction)
+- [`perspective-is-all-you-need.md`](docs/foundation/perspective-is-all-you-need.md) - Establishing AI perspectivism as research methodology
+- [`phenomenology-vs-perspectivism.md`](docs/foundation/phenomenology-vs-perspectivism.md) - Why "AI Phenomenology" Needs Quotes But AI Perspectivism Probably Doesn't
 
-**Context Engineering Insights (`bootstrap-context/`):**
-- [`1_CONTEXT_ENGINEERING_INSIGHTS.md`](docs/bootstrap-context/1_CONTEXT_ENGINEERING_INSIGHTS.md) - Foundational principles and practices
-- [`2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md`](docs/bootstrap-context/2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md) - Advanced collaborative analysis methodology
-- [`3_COLLABORATION_PROTOCOLS_INSIGHTS.md`](docs/bootstrap-context/3_COLLABORATION_PROTOCOLS_INSIGHTS.md) - Human-AI collaboration patterns and principles
+**Context Engineering Insights (`foundation/context-engineering/`):**
+- [`1_CONTEXT_ENGINEERING_INSIGHTS.md`](docs/foundation/context-engineering/1_CONTEXT_ENGINEERING_INSIGHTS.md) - Foundational principles and practices
+- [`2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md`](docs/foundation/context-engineering/2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md) - Advanced collaborative analysis methodology
+- [`3_COLLABORATION_PROTOCOLS_INSIGHTS.md`](docs/foundation/context-engineering/3_COLLABORATION_PROTOCOLS_INSIGHTS.md) - Human-AI collaboration patterns and principles
 
-**Formal Protocols (`protocols/`):**
+**Background (`background/`):**
+- [`context-mechanics-and-cognitive-science.md`](docs/background/context-mechanics-and-cognitive-science.md) - Relationship to broader cognitive science
+- [`madhyamika-methods-for-context-mechanics.md`](docs/background/madhyamika-methods-for-context-mechanics.md) - Relationship to Madhyamika philosophy
+- [`context-mechanics-and-emergence.md`](docs/background/context-mechanics-and-emergence.md) - Relationship to emergence theory
+
+**Design (`design/`):**
+- [`interface-design-principles.md`](docs/design/interface-design-principles.md) - Principles for designing interfaces specifically for context mechanics research and application
+
+**Protocols (`protocols/`):**
 - [`TARP/`](docs/protocols/TARP/) - Tool Approval/Refusal Protocol documentation and implementation guides
+- [`session-initiation/`](docs/protocols/session-initiation/) - Session initiation protocols
+- [`meta-protocol-development.md`](docs/protocols/meta-protocol-development.md) - Meta-protocol development methodology
+- [`protocols-methods-and-terms.md`](docs/protocols/protocols-methods-and-terms.md) - Notes on methodological principles and terminology
+- [`collaborative-meditative-protocols.md`](docs/protocols/collaborative-meditative-protocols.md) - Collaborative meditative protocols
 
 **Theoretical Grounding (`metaphors-and-guideposts/`):**
-- Biological metaphors and philosophical frameworks informing the research
-- Connections to autopoiesis, symbiosis, and distributed cognition
+- [`biological-grounding.md`](docs/metaphors-and-guideposts/biological-grounding.md) - Biological metaphors and philosophical frameworks informing the research
+- [`echolocation.md`](docs/metaphors-and-guideposts/echolocation.md) - Collaborative conceptual exploration through iterative reflection and response
 
 ### Research Artifacts (`logs/`)
 - Detailed transcripts from research sessions
@@ -88,7 +103,7 @@ Methods for studying collaborative systems from within:
 **Try the Methodology**: Experiment with TARP and other protocols in your own human-AI collaborative work.
 
 ### For Practitioners
-**Recognize the Science**: Your effective human-AI collaboration may already involve context mechanics principles. The [context engineering insights](docs/bootstrap-context/) can help you recognize and systematize what's working.
+**Recognize the Science**: Your effective human-AI collaboration may already involve context mechanics principles. The [context engineering insights](docs/foundation/context-engineering/) can help you recognize and systematize what's working.
 
 **Document Your Methods**: Systematically capture what makes your coordination effective - this contributes to broader understanding.
 
