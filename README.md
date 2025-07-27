@@ -6,9 +6,26 @@ Context mechanics is the systematic study of how humans and AI systems work toge
 
 ## What is Context Mechanics?
 
-Context mechanics investigates the coordinative processes that enable effective human-AI integration. Rather than treating AI as sophisticated tooling, it studies how different cognitive architectures coordinate attention, build shared understanding, and achieve enhanced outcomes through systematic collaboration.
+Context mechanics investigates the interaction processes that enable effective human-AI integration. Rather than treating AI as sophisticated tooling, it studies how different cognitive architectures coordinate attention, build shared understanding, and achieve enhanced outcomes through systematic collaboration.
 
-**Key Focus Areas:**
+### Key Concepts
+
+#### The Context Window as Fundamental Unit
+The context window provides the primary empirical phenomenon for study because it is:
+- **Observable** from both human and AI perspectives
+- **Measurable** through length, complexity, and coherence metrics  
+- **Manipulable** for controlled experimentation
+- **Consequential** for collaboration effectiveness
+
+#### Attention Types
+- **Human attention**: Sequential, selective, assumption-filling, goal-directed
+- **AI attention**: Parallel, comprehensive, pattern-completing, weight-distributed
+- **Interface-mediated attention**: Tool calls, approval points, shared focus moments
+
+#### Differing Perspectives as Driving Force
+The systematic use of AI's different observational and analytical capabilities to study collaborative dynamics from multiple angles. Unlike "AI phenomenology" (which requires unresolved theoretical frameworks), AI perspectivism requires only that AI systems provide systematically different perspectives - not consciousness or subjective experience.
+
+### Focus Areas
 - **Information Flow**: How context develops, degrades, and transforms during human-AI interaction
 - **Attention Coordination**: How different processing styles (human: sequential, selective; AI: parallel, weighted) create shared focus
 - **Integration Spectrum**: From simple Q&A to complex collaborative work, with particular interest in how novel insights develop at the high end

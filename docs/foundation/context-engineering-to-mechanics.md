@@ -216,8 +216,8 @@ The key insight is that many practitioners are already doing the empirical work 
 ---
 
 **Related Documents**:  
-- [Context Mechanics: Field Connections](./context-mechanics-field-connections.md) - Relationship to broader cognitive science  
-- [TARP Protocol Documentation](./TOOL_APPROVAL_REFUSAL_PROTOCOL_FORMAL.md) - Detailed methodology  
-- [Original Context Engineering Insights](./1_CONTEXT_ENGINEERING_INSIGHTS.md) - Foundational principles
+- [Context Mechanics: Field Connections](../background/context-mechanics-and-cognitive-science.md) - Relationship to broader cognitive science  
+- [TARP Protocol Documentation](../protocols/TARP/TOOL_APPROVAL_REFUSAL_PROTOCOL_FORMAL.md) - Detailed methodology  
+- [Original Context Engineering Insights](../foundation/context-engineering/1_CONTEXT_ENGINEERING_INSIGHTS.md) - Foundational principles
 
 **For Practitioners**: If you recognize your own work in this progression, you may already be contributing to context mechanics research. Consider documenting and sharing your methods to help build collective understanding of effective human-AI collaboration.

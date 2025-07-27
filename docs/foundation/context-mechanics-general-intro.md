@@ -1,6 +1,6 @@
 # Context Mechanics: A Research Program for Understanding Human-AI Integrative Cognition
 
-**A foundational science for studying how different cognitive architectures coordinate across the full spectrum of integration**
+**A foundational science for studying how different cognitive architectures coordinate across modes of integration**
 
 ## What is Context Mechanics?
 
@@ -214,13 +214,13 @@ As AI systems become more capable, the question isn't whether they'll surpass hu
 
 ## Key Resources
 
-**Methodological Documentation**: [Tool Approval/Refusal Protocol](./TOOL_APPROVAL_REFUSAL_PROTOCOL_FORMAL.md) - Detailed protocol for real-time cognitive coordination study
+**Methodological Documentation**: [Tool Approval/Refusal Protocol](../protocols/TARP/TOOL_APPROVAL_REFUSAL_PROTOCOL_FORMAL.md) - Detailed protocol for real-time cognitive coordination study
 
 **Development History**: [From Context Engineering to Context Mechanics](./context-engineering-to-mechanics.md) - How the research program emerged from applied practice
 
-**Field Connections**: [Context Mechanics: Field Connections](./context-mechanics-field-connections.md) - Relationship to broader cognitive science research
+**Value Statement**: [Value Statement](./value-statement.md) - Core principles and practices
 
-**Foundational Concepts**: [Context Mechanics Overview](./context-mechanics-overview.md) - Core theoretical framework and research questions
+**Technical Foundations**: [Technical Foundations](./technical-foundations-understanding-llms-for-cm.md) - Understanding LLMs for context mechanics research
 
 ## Contact and Community
 
@@ -234,4 +234,4 @@ Context mechanics is an emerging research program with active development of the
 
 ---
 
-**Context Mechanics**: *The science of understanding how different cognitive architectures coordinate across the full spectrum of integration, from simple information exchange to complex collaborative work.*
+**Context Mechanics**: *The science of understanding how different cognitive architectures coordinate across the modes of integration, from simple information exchange to complex collaborative work.*

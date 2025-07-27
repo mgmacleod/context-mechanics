@@ -304,4 +304,4 @@ The goal isn't to replace your practical experience with technical knowledge, bu
 **Next Steps**: 
 - Explore [Context Mechanics Research Program](../foundation/context-mechanics-general-intro.md) with technical foundations in mind
 - Try [Tool Approval/Refusal Protocol](../protocols/TARP/) to experience real-time study of coordination dynamics  
-- Review [Context Engineering Insights](../bootstrap-context/) to see how technical understanding applies to practical collaboration
+- Review [Context Engineering Insights](../foundation/context-engineering/) to see how technical understanding applies to practical collaboration
