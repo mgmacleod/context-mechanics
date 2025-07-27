@@ -1,99 +1,108 @@
 import { LLMProvider, LLMMessage, LLMResponse } from '../provider';
-import { Anthropic } from '@anthropic-ai/sdk';
+// Import directly from the Claude Code SDK
+const { query } = require('@anthropic-ai/claude-code');
+import type { SDKMessage } from '../../types/claude-code';
 
 export class ClaudeCodeProvider implements LLMProvider {
     readonly name = 'Claude Code';
-    readonly capabilities = ['tools', 'streaming', 'large_context'];
+    readonly capabilities = ['tools', 'streaming', 'large_context', 'codebase_aware'];
     
-    private client?: Anthropic;
-
     constructor() {
-        this.initializeClient();
-    }
-
-    private initializeClient() {
-        try {
-            this.client = new Anthropic({
-                apiKey: process.env.ANTHROPIC_API_KEY || ''
-            });
-        } catch (error) {
-            console.warn('Failed to initialize Claude Code client:', error);
-        }
+        // Claude Code SDK doesn't require explicit initialization
     }
 
     async isAvailable(): Promise<boolean> {
-        return !!this.client && !!process.env.ANTHROPIC_API_KEY;
+        try {
+            // Test if Claude Code is available by checking if we can import it
+            return typeof query === 'function';
+        } catch (error) {
+            console.warn('Claude Code SDK not available:', error);
+            return false;
+        }
     }
 
-    async sendMessage(message: string, context?: LLMMessage[]): Promise<LLMResponse> {
-        if (!this.client) {
-            throw new Error('Claude Code client not available');
-        }
-
-        const messages = this.buildMessageHistory(message, context);
-        
-        const response = await this.client.messages.create({
-            model: 'claude-3-5-sonnet-20241022',
-            max_tokens: 4096,
-            messages: messages.map(msg => ({
-                role: msg.role === 'user' ? 'user' : 'assistant',
-                content: msg.content
-            }))
-        });
-
-        return {
-            content: this.extractTextContent(response.content),
-            timestamp: new Date(),
-            metadata: {
-                model: 'claude-3-5-sonnet-20241022',
-                usage: response.usage
-            }
-        };
-    }
-
-    async *streamMessage(message: string, context?: LLMMessage[]): AsyncIterable<Partial<LLMResponse>> {
-        if (!this.client) {
-            throw new Error('Claude Code client not available');
-        }
-
-        const messages = this.buildMessageHistory(message, context);
-        
-        const stream = await this.client.messages.create({
-            model: 'claude-3-5-sonnet-20241022',
-            max_tokens: 4096,
-            messages: messages.map(msg => ({
-                role: msg.role === 'user' ? 'user' : 'assistant',
-                content: msg.content
-            })),
-            stream: true
-        });
-
+    async sendMessage(message: string, _context?: LLMMessage[]): Promise<LLMResponse> {
+        const messages: SDKMessage[] = [];
         let content = '';
-        for await (const chunk of stream) {
-            if (chunk.type === 'content_block_delta' && 'text' in chunk.delta) {
-                content += chunk.delta.text;
-                yield {
-                    content: chunk.delta.text,
-                    timestamp: new Date()
-                };
+        
+        try {
+            for await (const sdkMessage of query({
+                prompt: message,
+                abortController: new AbortController(),
+                options: {
+                    maxTurns: 1,
+                },
+            })) {
+                messages.push(sdkMessage);
+                if (sdkMessage.type === 'assistant') {
+                    content += this.extractTextFromSDKMessage(sdkMessage);
+                }
             }
+
+            return {
+                content,
+                timestamp: new Date(),
+                metadata: {
+                    provider: 'claude-code',
+                    messageCount: messages.length
+                }
+            };
+        } catch (error) {
+            throw new Error(`Claude Code query failed: ${error}`);
         }
     }
 
-    private buildMessageHistory(message: string, context?: LLMMessage[]): LLMMessage[] {
-        const messages: LLMMessage[] = context ? [...context] : [];
-        messages.push({
-            role: 'user',
-            content: message,
-            timestamp: new Date()
-        });
-        return messages;
+    async *streamMessage(message: string, _context?: LLMMessage[]): AsyncIterable<Partial<LLMResponse>> {
+        try {
+            for await (const sdkMessage of query({
+                prompt: message,
+                abortController: new AbortController(),
+                options: {
+                    maxTurns: 1,
+                },
+            })) {
+                if (sdkMessage.type === 'assistant') {
+                    const textContent = this.extractTextFromSDKMessage(sdkMessage);
+                    
+                    if (textContent) {
+                        yield {
+                            content: textContent,
+                            timestamp: new Date(),
+                            metadata: {
+                                provider: 'claude-code',
+                                messageType: sdkMessage.type
+                            }
+                        };
+                    }
+                }
+            }
+        } catch (error) {
+            throw new Error(`Claude Code streaming failed: ${error}`);
+        }
     }
 
-    private extractTextContent(content: any[]): string {
-        return content
-            .filter(block => block.type === 'text')
-            .map(block => block.text)
-            .join('');
+    private extractTextFromSDKMessage(sdkMessage: SDKMessage): string {
+        if (sdkMessage.type !== 'assistant') {
+            return '';
+        }
+        
+        const message = sdkMessage.message;
+        if (!message || !message.content) {
+            return '';
+        }
+        
+        const content = message.content;
+        if (typeof content === 'string') {
+            return content;
+        }
+        
+        if (Array.isArray(content)) {
+            return content
+                .filter(block => block.type === 'text')
+                .map(block => (block as any).text || '')
+                .join('');
+        }
+        
+        return '';
     }
 }
