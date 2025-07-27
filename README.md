@@ -32,13 +32,11 @@ See [From Context Engineering to Context Mechanics](docs/foundation/context-engi
 
 **Foundation Documents (`foundation/`):**
 - [`value-statement.md`](docs/foundation/value-statement.md) - Value statement and foundational principles
-- [`context-mechanics-general-intro.md`](docs/foundation/context-mechanics-general-intro.md) - Comprehensive introduction to the research program
-- [`context-engineering-to-mechanics.md`](docs/foundation/context-engineering-to-mechanics.md) - How applied practice became scientific research
-- [`technical-foundations-understanding-llms-for-cm.md`](docs/foundation/technical-foundations-understanding-llms-for-cm.md) - Explaining LLM foundations for context mechanics research (LLM power user introduction)
-- [`perspective-is-all-you-need.md`](docs/foundation/perspective-is-all-you-need.md) - Establishing AI perspectivism as research methodology
-- [`phenomenology-vs-perspectivism.md`](docs/foundation/phenomenology-vs-perspectivism.md) - Why "AI Phenomenology" Needs Quotes But AI Perspectivism Probably Doesn't
+- [`context-mechanics-general-intro.md`](docs/foplant-neurobiologyundation/context-mechanics-general-intro.md) - Comprehensive introduction to the research program
+- [`context-engineering-to-mechanics.md`](docs/foundation/plant-neurobiologycontext-engineering-to-mechanics.md) - How applied practice became scientific research
+- [`technical-foundations-understanding-llms-for-cm.md`](docs/fouplant-neurobiologyndation/technical-foundations-understanding-llms-for-cm.md) - Explaining LLM foundations for context mechanics research (LLM power user introduction)
 
-**Context Engineering Insights (`foundation/context-engineering/`):**
+**Context Engineering Foundations (`foundation/context-engineering/`):**
 - [`1_CONTEXT_ENGINEERING_INSIGHTS.md`](docs/foundation/context-engineering/1_CONTEXT_ENGINEERING_INSIGHTS.md) - Foundational principles and practices
 - [`2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md`](docs/foundation/context-engineering/2_CONTEXT_ENGINEERING_MULTI_PERSPECTIVE_ANALYSIS.md) - Advanced collaborative analysis methodology
 - [`3_COLLABORATION_PROTOCOLS_INSIGHTS.md`](docs/foundation/context-engineering/3_COLLABORATION_PROTOCOLS_INSIGHTS.md) - Human-AI collaboration patterns and principles
@@ -46,31 +44,41 @@ See [From Context Engineering to Context Mechanics](docs/foundation/context-engi
 **Background (`background/`):**
 - [`context-mechanics-and-cognitive-science.md`](docs/background/context-mechanics-and-cognitive-science.md) - Relationship to broader cognitive science
 - [`madhyamika-methods-for-context-mechanics.md`](docs/background/madhyamika-methods-for-context-mechanics.md) - Relationship to Madhyamika philosophy
-- [`context-mechanics-and-emergence.md`](docs/background/context-mechanics-and-emergence.md) - Relationship to emergence theory
+- [`phenomenology-vs-perspectivism.md`](docs/background/phenomenology-vs-perspectivism.md) - Why "AI Phenomenology" Needs Quotes But AI Perspectivism Probably Doesn't
 
 **Design (`design/`):**
 - [`interface-design-principles.md`](docs/design/interface-design-principles.md) - Principles for designing interfaces specifically for context mechanics research and application
 
+**Methodology (`methodology/`):**
+- [`perspective-is-all-you-need.md`](docs/methodology/perspective-is-all-you-need.md) - Establishing AI perspectivism as research methodology
+
+**Research (`research/`):**
+- [`research-directions-and-open-questions.md`](docs/research/research-directionfoundations-and-open-questions.md) - Priority research directions and open questions
+
 **Protocols (`protocols/`):**
 - [`TARP/`](docs/protocols/TARP/) - Tool Approval/Refusal Protocol documentation and implementation guides
-- [`session-initiation/`](docs/protocols/session-initiation/) - Session initiation protocols
 - [`meta-protocol-development.md`](docs/protocols/meta-protocol-development.md) - Meta-protocol development methodology
 - [`protocols-methods-and-terms.md`](docs/protocols/protocols-methods-and-terms.md) - Notes on methodological principles and terminology
-- [`collaborative-meditative-protocols.md`](docs/protocols/collaborative-meditative-protocols.md) - Collaborative meditative protocols
+- [`collaborative-meditative-protocols.md`](docs/protocols/collaborative-meditative-protocols.md) - Notes on collaborative meditative protocols
 
-**Theoretical Grounding (`metaphors-and-guideposts/`):**
+**Conceptual Grounding (`metaphors-and-guideposts/`):**
 - [`biological-grounding.md`](docs/metaphors-and-guideposts/biological-grounding.md) - Biological metaphors and philosophical frameworks informing the research
-- [`echolocation.md`](docs/metaphors-and-guideposts/echolocation.md) - Collaborative conceptual exploration through iterative reflection and response
+- [`plant-neurobiology.md`](docs/metaphors-and-guideposts/plant-neurobiology.md) - Conceptual parallels between plant neurobiology research and context mechanics
+- [`echolocation.md`](docs/metaphors-and-guideposfoundationts/echolocation.md) - Collaborative conceptual exploration through iterative reflection and response
+- [`two-player-laws-of-form.md`](docs/metaphors-anfoundationd-guideposts/two-player-laws-of-form.md) - Collaborative distinction-making between different types of intelligence
 
-### Research Artifacts (`logs/`)
-- Detailed transcripts from research sessions
-- Retrospective analyses of collaborative dynamics
-- Documentation of protocol development and refinement
+**Reports (`reports/`):**
+- AI-generated reports on background research and literature reviews
 
 ### Tools and Prototypes (`src/`)
 - **Chat Parser**: Convert Claude.ai transcripts to markdown format
 - **Custom Interfaces**: Prototype tools implementing context mechanics principles
 - **Research Support Tools**: Utilities for analyzing collaborative sessions and coordination patterns
+
+### Research Artifacts (`transcripts-and-artifacts/`)
+- Detailed transcripts from research sessions
+- Retrospective analyses of collaborative dynamics
+- Documentation of protocol development and refinement
 
 ## Key Methodological Innovations
 
