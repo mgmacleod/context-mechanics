@@ -36,6 +36,45 @@ The context window is the fundamental unit of analysis for context mechanics res
 - **Manipulable**: You can systematically vary what goes into the context window
 - **Consequential**: Context window composition directly affects collaboration quality
 
+## The Stateless Reality: Why Context Engineering Matters
+
+### What You Experience as "Memory Loss"
+You've probably noticed that when you start a new conversation with an AI, it doesn't remember anything from previous sessions. Even within a single conversation, you might feel like the AI "loses track" of important details from earlier in the chat, especially in very long conversations.
+
+### The Technical Reality: Complete Statelessness
+This isn't a limitation that will be fixed with better technology - it's a fundamental architectural feature of how LLMs work:
+
+**No Persistent Memory**: LLMs don't store information between interactions. Each response is generated completely independently, using only what's currently in the context window.
+
+**Fresh Start Every Time**: When the AI generates a response, it's not "remembering" previous conversations or even previous parts of the current conversation in the way humans remember. It's processing all context as if encountering it for the first time.
+
+**Context Window as Only Memory**: The context window isn't just input - it's the AI's entire working memory. Everything outside the current context window effectively doesn't exist for the AI.
+
+### Why This Design Makes Sense
+Statelessness provides crucial benefits:
+- **Consistency**: Every response is generated using the same process, without accumulated biases
+- **Privacy**: No information persists between sessions or users
+- **Scalability**: No need to maintain persistent state for millions of users
+- **Reliability**: No risk of corrupted or outdated persistent memories affecting responses
+
+### Implications for Human-AI Collaboration
+Understanding statelessness helps explain why context engineering techniques are essential:
+
+**Context Bridging**: You need explicit strategies to carry important information from one session to another, because the AI won't "remember" anything automatically.
+
+**Information Architecture**: How you structure information within the context window becomes critical, since it's the AI's only source of context.
+
+**Collaboration Continuity**: Sustained collaborative work requires deliberate context management to maintain shared understanding across sessions.
+
+**Research Opportunity**: The stateless nature means every interaction provides a clean experimental condition - the AI's processing of context isn't contaminated by unknown prior experiences.
+
+### Why Context Mechanics Studies This
+Statelessness makes the context window dynamics even more scientifically interesting:
+- **Pure Context Effects**: Any changes in AI behavior must be due to context window composition, not hidden state
+- **Reproducible Experiments**: The same context input should produce consistent processing patterns
+- **Clean Measurement**: You can isolate the effects of specific context engineering techniques
+- **Collaboration as Context Coordination**: All human-AI coordination must happen through explicit context management
+
 ## Attention Mechanisms: How AI "Looks At" Information
 
 ### Your Attention vs. AI Attention
@@ -73,6 +112,67 @@ These fundamentally different attention patterns mean you and the AI are literal
 - **AI**: Parallel, consistent, pattern-completing, weight-distributed
 
 This isn't a bug or limitation - it's a fundamental architectural difference that creates the rich dynamics context mechanics studies.
+
+## Tool Use and Function Calling: AI Taking Actions
+
+### Beyond Text Generation
+While you might think of AI systems as text generators, modern LLMs can also propose and execute **actions** through tool use and function calling:
+
+**Tool Calls**: The AI can propose using specific tools - searching databases, running calculations, accessing APIs, or executing code.
+
+**Function Calls**: The AI can call predefined functions with specific parameters to accomplish tasks beyond text generation.
+
+**Action Proposals**: Rather than just generating text about what it might do, the AI can actually propose concrete actions and request permission to execute them.
+
+### How This Works Technically
+When an AI system has access to tools:
+
+**Action Recognition**: The AI recognizes when a tool might be useful for responding to your request.
+
+**Parameter Generation**: It generates specific parameters for the tool call (search terms, calculation inputs, etc.).
+
+**Execution Request**: It proposes the action and waits for approval or automatic execution, depending on the interface.
+
+**Result Integration**: It receives the tool output and incorporates it into its response generation.
+
+### Your Experience vs. AI Processing
+**What You See**: The AI might say "Let me search for recent information about X" and then show you search results.
+
+**What's Actually Happening**: 
+1. The AI processes your request and identifies that a search tool could help
+2. It generates a structured function call with specific search parameters
+3. The interface either automatically executes the tool or requests your approval
+4. The AI receives the tool output and processes it along with the original context
+5. It generates a response that incorporates both the original context and the new information
+
+### Why This Matters for Context Mechanics
+Tool use creates new opportunities for studying human-AI coordination:
+
+**Real-Time Decision Points**: Tool proposals create natural moments where human and AI attention converge on specific decisions.
+
+**Action vs. Analysis**: You can observe the difference between AI analyzing a situation vs. proposing concrete actions.
+
+**Approval Dynamics**: The approval process creates opportunities for humans to inject expertise, redirect focus, or study coordination patterns.
+
+**Context Expansion**: Tools allow the AI to bring new information into the context window, creating opportunities to study how context composition affects collaboration.
+
+### Protocol Opportunities
+Understanding tool use helps explain why protocols like TARP are possible and useful:
+
+**Natural Breakpoints**: Tool proposals create natural points where the AI pauses and waits for human input.
+
+**Decision Transparency**: The AI must explicitly state what action it wants to take and why.
+
+**Collaborative Control**: Humans can approve, refuse, or modify proposed actions based on domain expertise.
+
+**Real-Time Study**: The approval process creates opportunities to study coordination dynamics as they happen.
+
+### Research Implications
+Tool use enables new types of context mechanics research:
+- **Action Coordination**: How do humans and AI coordinate on when and how to take actions?
+- **Tool Selection Patterns**: What factors influence AI tool choice, and how do humans guide this?
+- **Context Integration**: How does new information from tools affect ongoing collaboration?
+- **Intervention Dynamics**: How do approval/refusal decisions shape collaborative flow?
 
 ## Embeddings and Vector Spaces: How Meaning Gets Represented
 
