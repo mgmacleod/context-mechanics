@@ -87,10 +87,14 @@ See [From Context Engineering to Context Mechanics](docs/foundation/context-engi
 **Reports (`reports/`):**
 - AI-generated reports on background research and literature reviews
 
-### Tools and Prototypes (`src/`)
+### Tools and Prototypes
 - **Chat Parser**: Convert Claude.ai transcripts to markdown format
+  - [chat-parser.py](src/chat-parser.py)
 - **Custom Interfaces**: Prototype tools implementing context mechanics principles
 - **Research Support Tools**: Utilities for analyzing collaborative sessions and coordination patterns
+- **Context Mechanics Workbench**: VSCode extension for studying human-AI collaboration dynamics with integrated LLM providers
+  - [README](context-mechanics-workbench/README.md)
+  - [Source Code](context-mechanics-workbench/src)
 
 ### Research Artifacts (`transcripts-and-artifacts/`)
 - Detailed transcripts from research sessions
