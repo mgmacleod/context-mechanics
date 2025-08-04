@@ -180,6 +180,19 @@
 
 **Application**: Live note-taking linked to specific exchanges, real-time metrics dashboard, TARP as both research tool and collaboration enhancement.
 
+### Naturalistic Data Collection
+
+**Principle**: The tool should capture authentic collaboration patterns from both deliberate research and natural work contexts.
+
+**Implications**:
+- Engineering mode enables productivity-focused work while collecting research data transparently
+- Research mode provides analytical tools for examining naturally-occurring interaction patterns
+- Mode switching preserves continuity between productive work and reflective analysis
+- Comparative analysis between research and engineering sessions reveals methodology effects
+- Real work contexts ground research findings in authentic collaboration scenarios
+
+**Application**: Dual-mode design with shared data infrastructure; post-session analysis capabilities; transparent background data collection; seamless mode transitions that preserve session integrity.
+
 ## Implementation Guidelines
 
 ### Decision Framework
