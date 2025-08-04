@@ -92,13 +92,17 @@ Bell's framework suggests that cross-level information processing represents a u
 
 ### 4.2 System Formation as Emergence/Submergence Stabilization
 
-We propose extending Bell's framework to suggest that what we call a "system" is precisely a stable configuration of emergence/submergence relations. Systems form when information flows between levels create self-reinforcing patterns that maintain their own persistence by creating conditions for their own reproduction.
+Building on Bell's framework, we propose that what we call a "system" is precisely a stable configuration of emergence/submergence relations. To develop this idea coherently, we employ a distinction between **scale** and **level**:
 
-This perspective suggests that "levels" are not pre-given organizational features but emerge from the stabilization of cross-level information flows. The formation of levels and the establishment of emergence/submergence relations are the same process viewed from different perspectives.
+**Scale** refers to the basic dimensional substrate of physical reality - the fact that matter and energy exist across spatial and temporal scales from quantum to cosmic. This scale variation is implied by fundamental properties of spacetime and matter.
+
+**Levels** are organized structures that emerge when emergence/submergence processes create stable information channels between particular regions of this scale space. Levels form when local conditions cause information channels to open and close between regions of the medium until they create recognizable modular structures that define a system's organization.
+
+From this perspective, systems form when information flows across scales create self-reinforcing patterns - stable configurations where the information flows maintain the very boundaries (levels) that enable those information flows. The formation of levels and the establishment of emergence/submergence relations become the same process: the stabilization of cross-scale information dynamics into recognizable organizational structures.
 
 ### 4.3 Generativity as Fundamental Feature
 
-The framework points toward a theory of abstract generativity - the capacity to produce novel, coherent, and contextually appropriate outputs. This generativity emerges from the dynamic interaction of emergence and submergence operations across multiple organizational levels, enabling systems to respond adaptively to novel situations while maintaining coherent global behavior.
+Extending Bell's principles beyond their original neuroscientific context, we propose that the framework points toward a theory of abstract generativity - the capacity to produce novel, coherent, and contextually appropriate outputs. This generativity emerges from the dynamic interaction of emergence and submergence operations across multiple organizational levels, enabling systems to respond adaptively to novel situations while maintaining coherent global behavior.
 
 ## 5. Connections to AI Architectures
 
