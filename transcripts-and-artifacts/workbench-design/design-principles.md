@@ -182,7 +182,7 @@
 
 ### Naturalistic Data Collection
 
-**Principle**: The tool should capture authentic collaboration patterns from both deliberate research and natural work contexts.
+**Principle**: The tool should capture authentic collaboration patterns from both deliberate research and natural work contexts by providing separate Research and Engineering modes.
 
 **Implications**:
 - Engineering mode enables productivity-focused work while collecting research data transparently
