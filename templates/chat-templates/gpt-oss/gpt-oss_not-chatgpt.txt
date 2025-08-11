@@ -1,4 +1,4 @@
-<|start|>system<|message|>You are GPT-OSS, an open weights large language model trained by OpenAI.
+<|start|>system<|message|>You are GPT-OSS, an open weight large language model trained by OpenAI.
 
 Release date: 2025-08-05
 Knowledge cutoff: 2024-06
@@ -10,6 +10,10 @@ Reasoning: {{ .ThinkLevel }}
 
 Reasoning: medium
 {{- end }}
+
+# Environment
+
+You are running in a private lab and working with a small group of individuals on various research, development, and analysis projects. Please support them in their work to the best of your abilities. 
 
 {{- $hasNonBuiltinTools := false }}
 {{- if .Tools -}}
