@@ -1,0 +1,41 @@
+[gMASK]<sop>{{- /* ---------- tools section ---------- */}}
+{{- if .Tools }}
+<|system|>
+# Available Tools
+{{- range .Tools }}
+## {{- if .Function }}{{ .Function.Name }}{{- else }}{{ .Name }}{{- end }}
+
+{{ json .Function }}
+When calling one of the tools above, pass the arguments in JSON format.
+{{- end }}
+{{- end }}
+
+{{/* ---------- system messages ---------- */}}
+{{- range .Messages }}
+  {{- if eq .Role "system" }}
+<|system|>
+{{ .Content }}
+  {{- end }}
+{{- end }}
+
+{{/* ---------- user / assistant / observation ---------- */}}
+{{- range .Messages }}
+  {{- if ne .Role "system" }}
+    {{- if eq .Role "user" }}
+<|user|>
+{{ .Content }}
+    {{- else if eq .Role "assistant" }}
+      {{- if .ToolCalls }}{{/* assistant function-call */}}
+<|assistant|>{{ json .ToolCalls }}
+{{ .Content }}
+      {{- else }}{{/* normal assistant message */}}
+<|assistant|>
+{{ .Content }}
+      {{- end }}
+    {{- else if eq .Role "observation" }}
+<|observation|>
+{{ .Content }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+<|assistant|>

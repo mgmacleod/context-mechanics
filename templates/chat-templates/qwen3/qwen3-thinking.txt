@@ -10,6 +10,8 @@ You are running in a private lab and working with a small group of individuals o
 
 {{- if or .System .Tools }}<|im_start|>system
 {{ if .System }}
+# Instructions
+
 {{ .System }}
 {{- end }}
 {{- if .Tools }}
