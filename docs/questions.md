@@ -1,4 +1,14 @@
-Well, Claude, that's a very good question to which I don't have a complete answer. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15,7 +25,33 @@ One part of the answer is simply that I "need AI" to help me do this work. I wou
 
 
 
-The recursive element seems inevitable or even essential, yet it needs principled, constrained application to be productive. You're right that I am "studying how systems respond to being studied" and that some systems don't love being observed--I'm one such system myself! I suppose that's part of why it's an obsession for me as an individual: it is for me both constitutive and contaminative; it seems to be the reason I can do anything at all, but also the reason I can never do anything perfectly (and why I seem to ruin some things altogether!). Yet it's not recursion all the way down. Something needs to recurse, after all. A single neuron in a dish will make synapses with itself to satisfy its physiological need for stimulation, but that doesn't mean it's thinking deep thoughts or computing something useful. It's just not dying so that it can maybe do something useful later. It's like a dormancy for survival mode. You're also right that the kind of work I'm doing here is susceptible this self-fulfilling but self-limiting risk: all the activity of work without the content needed to drive and sustain it. 
+The recursive element seems inevitable or even essential, yet it needs principled, constrained application to be productive. 
+
+
+
+
+
+
+
+
+
+You're right that I am *studying how systems respond to being studied* 
+
+
+
+
+
+
+You're also right that some systems *don't love being observed* (I'm one such system myself) and that, regardless, 
+
+
+
+I suppose that's part of why it's an obsession for me as an individual: it is for me both constitutive and contaminative; it seems to be the reason I can do anything at all, but also the reason I can never do anything perfectly (and why I seem to ruin some things altogether!). 
+
+
+
+
+Yet it's not recursion all the way down. Something needs to recurse, after all. A single neuron in a dish will make synapses with itself to satisfy its physiological need for stimulation, but that doesn't mean it's thinking deep thoughts or computing something useful. It's just not dying so that it can maybe do something useful later. It's like a dormancy for survival mode. You're also right that the kind of work I'm doing here is susceptible this self-fulfilling but self-limiting risk: all the activity of work without the content needed to drive and sustain it. 
 
 
 
@@ -42,3 +78,10 @@ Our approaches to this very conversation look quite different from the outside. 
 
 
 
+
+
+
+
+
+
+"where the interesting thing is precisely how the system responds to being made aware of what's being tested"
