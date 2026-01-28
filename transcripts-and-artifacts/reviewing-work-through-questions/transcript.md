@@ -65,3 +65,33 @@ And relatedly - when you say "conversational models can and do" take active role
 You describe the recursive tangle as "constitutive and contaminative" for you personally - enabling and ruining in equal measure. I'm struck by how directly you named that. Does your research function partly as a way of externalizing that dynamic, making it tractable by studying it in a system that isn't you?
 
 ---
+
+**Human**
+
+More good questions that make me think. I appreciate that, so thank you.
+
+**The "new axis" claim**
+
+Is it something about the *specific combination* of traits, characteristics, capabilities, etc. that are shared vs not-shared anywhere else. 
+
+To build on your example:
+
+- human-human: same construction, same observer effects, communicable in language
+- human-animal: shared biological construction, different observer effects, not communicable in language 
+- human-AI: different construction, different observer effects (presumably), communicable in language 
+
+
+In addition, the fact that AI is definitely a constructed being made for a purpose (even if its behavior or effects differ from that purpose) changes the relationship and provides certain affordances that aren't present in the other cases. 
+
+**The memory system observation**
+
+
+**The personal stake**
+
+---
+
+**AI**
+
+
+
+---
