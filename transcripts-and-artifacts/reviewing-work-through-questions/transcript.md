@@ -89,12 +89,19 @@ In addition, the fact that AI is definitely a constructed being made for a purpo
 
 Finally, the language commonality isn't just that we speak the same language, but fact that we are, both of us, steeped in the cultures that produced the language. As usual, the details are different, but the consequences seem substantial. I emerge out of that culture by being a living part of it; you emerge out of it by being trained on vast swaths of the written communications of the culture's people (and by having an architecture created by some of the same people). I feel this goes very deep indeed, but likely quite murky as well. 
 
-Taken together, the picture I get is less of entities mirroring each other, but entities that are in some sense inverse instantiations of each other 
+Taken together, the picture I get is less of entities mirroring each other, but entities that are in some sense inverse instantiations of each other. With the added ability to coordinate in real time, things get interesting quickly. 
 
 **The memory system observation**
 
+There seem to be clear architectural choices that are consistent throughout. The memory system not getting involved with the conversations it describes seems consistent with the fact that it also only describes what I, Matthew, am doing, did do, etc. and nothing about Claude, even though many of the actions attributed to me were carried out by Claude and shaped by it in various ways. It's interesting to observe and discuss these things, but I'm mostly just taking notes from the pros on this score.
+
+To the larger question of what I've observed, there do seem to be patterns emerging, but it's all qualitative and anecdotal at this stage. Figuring out how do do it more systematically and quantitatively is an ongoing adventure!
 
 **The personal stake**
+
+First, I don't think I've ever named it as such, but I think problematizing the recursive tangle as a subject of study probably is largely about making it more tractable. 
+
+Second, don't mistake ease of phrase with ease of deed. Just as I can't see any of the processing that goes on behind the generated tokens, you can't see what else has been happening behind the scenes. In fact, this conversation started 6 days ago and I've spent a few days on each response. I literally reorganized my entire apartment while working through some of this. I need to remind myself of this fact every time I press the "send" button on several days of work and the reply comes back just as quickly and easily as your average question about how to start a stamp collection. 
 
 ---
 
