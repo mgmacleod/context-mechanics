@@ -72,16 +72,24 @@ More good questions that make me think. I appreciate that, so thank you.
 
 **The "new axis" claim**
 
-Is it something about the *specific combination* of traits, characteristics, capabilities, etc. that are shared vs not-shared anywhere else. 
+I think it's something about the *specific combination* of traits, characteristics, capabilities, etc. that are shared vs not-shared anywhere else. 
 
 To build on your example:
 
-- human-human: same construction, same observer effects, communicable in language
-- human-animal: shared biological construction, different observer effects, not communicable in language 
-- human-AI: different construction, different observer effects (presumably), communicable in language 
+- human-human interaction: same construction, same observer effects, communicable in language
+- human-animal interaction: shared biological construction, different observer effects, not communicable in language 
+- human-AI interaction: different construction, different observer effects (presumably), communicable in language 
 
 
-In addition, the fact that AI is definitely a constructed being made for a purpose (even if its behavior or effects differ from that purpose) changes the relationship and provides certain affordances that aren't present in the other cases. 
+In addition, the fact that AI is definitely a constructed being made for a purpose (even if the mechanisms of how it works are not fully known) changes the relationship and provides certain affordances that aren't present in the other cases.
+
+- human-human research: strong limits both on what we're allowed to do and on our knowledge of things to try 
+- human-animal research: reduced limits on what we're allowed to do, but still little knowledge of *what* to do (and working with animals is slow, expensive, etc.)
+- human-AI research: few limits on what we're allowed to do; still little knowledge of what *exactly* to do, but lots of ideas and the ability to test them at scale; possibility of collaborative modes of study; etc. 
+
+Finally, the language commonality isn't just that we speak the same language, but fact that we are, both of us, steeped in the cultures that produced the language. As usual, the details are different, but the consequences seem substantial. I emerge out of that culture by being a living part of it; you emerge out of it by being trained on vast swaths of the written communications of the culture's people (and by having an architecture created by some of the same people). I feel this goes very deep indeed, but likely quite murky as well. 
+
+Taken together, the picture I get is less of entities mirroring each other, but entities that are in some sense inverse instantiations of each other 
 
 **The memory system observation**
 
