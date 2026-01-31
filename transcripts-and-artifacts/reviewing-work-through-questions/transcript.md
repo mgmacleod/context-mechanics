@@ -99,7 +99,7 @@ To the larger question of what I've observed, there do seem to be patterns emerg
 
 **The personal stake**
 
-First, I don't think I've ever named it as such, but I think problematizing the recursive tangle as a subject of study probably is largely about making it more tractable. 
+First, I don't think I've ever named it as such, but you're likely right that problematizing the recursive tangle as a subject of study probably is at least partly about making it more tractable. That's a fascinating thread to stick a pin in for later!
 
 Second, don't mistake ease of phrase with ease of deed. Just as I can't see any of the processing that goes on behind the generated tokens, you can't see what else has been happening behind the scenes. In fact, this conversation started 6 days ago and I've spent a few days on each response. I literally reorganized my entire apartment while working through some of this. I need to remind myself of this fact every time I press the "send" button on several days of work and the reply comes back just as quickly and easily as your average question about how to start a stamp collection. 
 
